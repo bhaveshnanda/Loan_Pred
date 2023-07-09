@@ -1,7 +1,6 @@
 # save this as app.py
 from flask import Flask, request, render_template
 import pickle
-import signal
 
 app = Flask(__name__)
 model = pickle.load(open('ML_Model1', 'rb'))
@@ -43,20 +42,8 @@ def predict():
 
     else:
         return render_template("prediction.html")
-    
-def shutdown_server(signum, frame):
-    print("Shutting down server...")
-    # Perform any cleanup or additional actions here if needed
-    # For example, close database connections or save any necessary data
-    # Then, stop the Flask application
-    func = request.environ.get('werkzeug.server.shutdown')
-    if func is not None:
-        func()
-
-signal.signal(signal.SIGINT, shutdown_server)
 
 
 predict
 if __name__ == "__main__":
-    signal.signal(signal.SIGINT, shutdown_server)
     app.run(debug=True)
