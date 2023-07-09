@@ -42,8 +42,20 @@ def predict():
 
     else:
         return render_template("prediction.html")
+    
+def shutdown_server(signum, frame):
+    print("Shutting down server...")
+    # Perform any cleanup or additional actions here if needed
+    # For example, close database connections or save any necessary data
+    # Then, stop the Flask application
+    func = request.environ.get('werkzeug.server.shutdown')
+    if func is not None:
+        func()
+
+signal.signal(signal.SIGINT, shutdown_server)
 
 
-
+predict
 if __name__ == "__main__":
-    app.run(host='0.0.0.0',port=8080,debug=True)
+    signal.signal(signal.SIGINT, shutdown_server)
+    app.run(debug=True)
