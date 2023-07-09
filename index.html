@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <title>loan Prediction</title>
+  </head>
+  <body>
+
+<!-- This example requires Tailwind CSS v2.0+ -->
+<div class="relative bg-white overflow-hidden">
+  <div class="max-w-7xl mx-auto">
+    <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+      <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+        <polygon points="50,0 100,0 50,100 0,100" />
+      </svg>
+      <section id="homepage" class="homepage">
+
+      <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
+        <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
+          <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
+            <div class="flex items-center justify-between w-full md:w-auto">
+              <a href="#">
+                <span class="sr-only">Workflow</span>
+                <img class="h-8 w-auto sm:h-10" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAZlBMVEURZt3///8AXtz5+/4AY9wAWtsAXNsAYdwAWNvt8vwAVtro7vtmkeUha97f5/kAVNphjeTQ3faDpOmrwO+dtu20yPG+z/ORqep7nOfX4vg3dODH1vVNgOKWseySruxwl+ZCe+FVh+NBkJuHAAADvUlEQVRogbXaaYOqIBQGYERZXHPJxjSn6f//yYuaN0XQ17LzWZ9hDodFiDhQ+MmlOP/kVZX/tMUl8bG3yPYj1yKqRcAoFX1QygJRR8X1Y9xtKsG48IgWnuBMVI37AZ7kcSB09xUiiPPkTby5MWqXh6Ds1ryBN3/BIhmm8II/K2/Bk5uE6J6XN0tyjLibn2C650+5sWtN+DXezLUeNDZVpgFv9zV7bHyL4JHcT3cho03c35+SMWiszwoansQrg2YrRJys4Ql9I92v8ERix5PlJPKRPsV98qGtdOJb8E/yPYaIzXj6dp1Mg6Ym/PfN+tZD/i7x7HSMTcgp03E3/rgzx/BiV8NzfpRNCM/n+PWwpHRxus7w22FJ6cK7TfELO9ImhF0meH1ow1XT6xd+OajEXyEv//GjGz42vcOzgzPeBcue+P2ACUsPcR9w/wu20v0eL7+QFdWlZY+n32l52uOH1+EQssObr2RF1Uuj8N9DFqBl0F+FPw4fQUOIh0PcGH+cS8nh3ldrBgnRVYKSe5ll5Z2gaeQhycBiCfLnjsTPA+wNmZESa/lzht4z+/OStNB/yYrJXscpIJ225AfpoXHdGgNaFcUPqRA8yOZ4hqRdVCRCGkEdLZBcehFJAdx76Dgy8rwUwsXicycCkqlwJC1vtjwi0BondBx66U7y71VLjg0ikc5xaPFSg6iAhv909KPjnxekwSYuNjn3ANcu2ZAQnBX5ebTP4CQtQ+JiTypd9B8MrkAXALVY4FtzOuDoWqEmO+JAtfgGLnKFwxv/nbgqMOK46KZoJy7dbsf1ByZ9H96tLwrHhtFenBfDFhpM+j6cDVto54HVyy5cdLM0gaeKfXg/XfQfXNDjO9PijDi4D9mBD/ucHnehYtzVcvc/jk10O/DnFPo8WEBOW3Dcex50PfELsCjiuLzMcKTWYbyv8Skebr8D4zTUcKfcTAyKB6Wj40609RaI09feb3JouXUwguHPcxwdDzfGKYbz0Ig7G99eEC6nG7/ZEff6cRSCy9nObH44v1oyAP4qFAO+OrVv4/Md5fJC5MqsNbOFC6bfFS2ucsLa9vYGTutQtwyXUKkl8et4kC4l0/VZaT6aWMMFLw2Q8eIvvJlqcgWXt0VKrLhqPFmuTVacE1Oz7bjjtot9uAXnorVdRduvid0zmZelCfcYOdtvuVcvuMsHm9ynLXCPsoclIQCuurat5XgzP8M9wWXdGrsRxlX4ZVXTgFPBBpwJygNaV+X2zxaAXyx0f+BatlU64GnVllfs9xD/AM8yJjFCzZT3AAAAAElFTkSuQmCC">
+              </a>
+              <div class="-mr-2 flex items-center md:hidden">
+                <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
+                  <span class="sr-only">Open main menu</span>
+                  <!-- Heroicon name: outline/menu -->
+                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+            <a href="#" class="font-medium text-gray-600 hover:text-gray-900"><strong>Home</a></strong>
+
+            <a href="./prediction.html" class="font-medium text-gray-500 hover:text-gray-900">Prediction</a>
+
+            <a href="#about" class="font-medium text-gray-500 hover:text-gray-900">About us</a>
+
+            <a href="#contact" class="font-medium text-gray-500 hover:text-gray-900">contact</a>
+            
+          </div>
+        </nav>
+      </div>
+
+      <!--
+        Mobile menu, show/hide based on menu open state.
+
+        Entering: "duration-150 ease-out"
+          From: "opacity-0 scale-95"
+          To: "opacity-100 scale-100"
+        Leaving: "duration-100 ease-in"
+          From: "opacity-100 scale-100"
+          To: "opacity-0 scale-95"
+      -->
+        <div class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+          <div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
+            <div class="px-5 pt-4 flex items-center justify-between">
+              <div>
+                <img class="h-8 w-auto" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAZlBMVEURZt3///8AXtz5+/4AY9wAWtsAXNsAYdwAWNvt8vwAVtro7vtmkeUha97f5/kAVNphjeTQ3faDpOmrwO+dtu20yPG+z/ORqep7nOfX4vg3dODH1vVNgOKWseySruxwl+ZCe+FVh+NBkJuHAAADvUlEQVRogbXaaYOqIBQGYERZXHPJxjSn6f//yYuaN0XQ17LzWZ9hDodFiDhQ+MmlOP/kVZX/tMUl8bG3yPYj1yKqRcAoFX1QygJRR8X1Y9xtKsG48IgWnuBMVI37AZ7kcSB09xUiiPPkTby5MWqXh6Ds1ryBN3/BIhmm8II/K2/Bk5uE6J6XN0tyjLibn2C650+5sWtN+DXezLUeNDZVpgFv9zV7bHyL4JHcT3cho03c35+SMWiszwoansQrg2YrRJys4Ql9I92v8ERix5PlJPKRPsV98qGtdOJb8E/yPYaIzXj6dp1Mg6Ym/PfN+tZD/i7x7HSMTcgp03E3/rgzx/BiV8NzfpRNCM/n+PWwpHRxus7w22FJ6cK7TfELO9ImhF0meH1ow1XT6xd+OajEXyEv//GjGz42vcOzgzPeBcue+P2ACUsPcR9w/wu20v0eL7+QFdWlZY+n32l52uOH1+EQssObr2RF1Uuj8N9DFqBl0F+FPw4fQUOIh0PcGH+cS8nh3ldrBgnRVYKSe5ll5Z2gaeQhycBiCfLnjsTPA+wNmZESa/lzht4z+/OStNB/yYrJXscpIJ225AfpoXHdGgNaFcUPqRA8yOZ4hqRdVCRCGkEdLZBcehFJAdx76Dgy8rwUwsXicycCkqlwJC1vtjwi0BondBx66U7y71VLjg0ikc5xaPFSg6iAhv909KPjnxekwSYuNjn3ANcu2ZAQnBX5ebTP4CQtQ+JiTypd9B8MrkAXALVY4FtzOuDoWqEmO+JAtfgGLnKFwxv/nbgqMOK46KZoJy7dbsf1ByZ9H96tLwrHhtFenBfDFhpM+j6cDVto54HVyy5cdLM0gaeKfXg/XfQfXNDjO9PijDi4D9mBD/ucHnehYtzVcvc/jk10O/DnFPo8WEBOW3Dcex50PfELsCjiuLzMcKTWYbyv8Skebr8D4zTUcKfcTAyKB6Wj40609RaI09feb3JouXUwguHPcxwdDzfGKYbz0Ig7G99eEC6nG7/ZEff6cRSCy9nObH44v1oyAP4qFAO+OrVv4/Md5fJC5MqsNbOFC6bfFS2ucsLa9vYGTutQtwyXUKkl8et4kC4l0/VZaT6aWMMFLw2Q8eIvvJlqcgWXt0VKrLhqPFmuTVacE1Oz7bjjtot9uAXnorVdRduvid0zmZelCfcYOdtvuVcvuMsHm9ynLXCPsoclIQCuurat5XgzP8M9wWXdGrsRxlX4ZVXTgFPBBpwJygNaV+X2zxaAXyx0f+BatlU64GnVllfs9xD/AM8yJjFCzZT3AAAAAElFTkSuQmCC" alt="">
+              </div>
+              <div class="-mr-2">
+                <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                  <span class="sr-only">Close main menu</span>
+                  <!-- Heroicon name: outline/x -->
+                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          <div class="px-2 pt-2 pb-3 space-y-1">
+            <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Home</a>
+
+            <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">prediction</a>
+
+            <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">about us</a>
+
+            <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">contact</a>
+          </div>
+          
+        </div>
+      </div>
+
+      <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+        <div class="sm:text-center lg:text-left">
+          <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+            <span class="block xl:inline">Loan Prediction</span>
+            <span class="block text-indigo-600 xl:inline">Machine Learning </span>
+          </h1>
+          <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+            Welcome to our Loan Approval Prediction Website! We are dedicated to simplifying the loan application process and empowering individuals with accurate predictions.
+          </p>
+          <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+            <div class="rounded-md shadow">
+              <a href="./prediction.html" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
+                Prediction
+              </a>
+            </div>
+            
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+  <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+    <img class="h-55 w-full object-cover sm:h-70 md:h-95 lg:w-full lg:h-full" src="https://img.freepik.com/free-vector/premium-cash-reward-bonus-work-done-best-employee-rewarding-promotion-order-efficiency-stimulation-boss-subordinate-cartoon-characters_335657-2984.jpg?w=740&t=st=1688586784~exp=1688587384~hmac=3c6bcf1c1482d533c287e543bee48d5c2f46e5489e3767e1ba8dd129005174a3" alt="">
+  </div>
+</div>
+    
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+  </body>
+  <br>
+    <br>
+      <br>    
+        <br>
+      <!-- ======= About Us Section ======= -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+          <hr style="height:4px">
+            <br>
+            <center><h2 class = "heading" Style="font-size: 50px;">About us</h2></center>
+            <br>
+            <div>
+            <center><img src="https://datatrained.com/images/hackthonsb1639983544.png" alt="Image" style="width: 50%" style="height: 5.5";></center>
+            </div>
+            <br>
+            
+          </div>
+          <div>
+            <div data-aos="fade-up" data-aos-delay="150" >
+              <p><center>
+                Welcome to our Loan Approval Prediction Website! We are dedicated to simplifying the loan application process and empowering individuals with accurate predictions. Our advanced algorithms analyze your financial data to provide instant insights into your loan approval chances. With our user-friendly platform, you can make informed decisions and increase your chances of securing the loan you need.
+              </p></center>
+            </div>
+            <br>
+            <div data-aos="fade-up" data-aos-delay="300">
+              <p><center>
+                We understand that securing a loan can be a complex and uncertain process. That's why we're here to help. Our platform leverages advanced algorithms and extensive financial data to provide accurate predictions on loan approvals. With our user-friendly interface, you can easily input your information and receive instant insights into your loan approval chances. Trust our reliable predictions to make informed financial decisions and pave the way for your future success
+              </p></center>
+              <br>
+            </div>
+
+          </div>
+        </div>
+      </section><!-- End About Us Section -->
+
+
+<section id="contact" class="contact">
+<hr style="height:4px">
+  <div class="flex items-center min-h-screendark:bg-gray-900">
+    <div class="container mx-auto">
+      <div class="max-w-md mx-auto my-10 bg-white p-5 rounded-md shadow-sm">
+        <div class="text-center">
+          <h1 class="my-3 text-3xl font-semibold text-gray-800 dark:text-gray-300" Style="font-size: 50px;">Contact Us</h1>
+          <p class="text-gray-500 dark:text-gray-500">Fill up the form below to send us a message.</p>
+        </div>
+        <div class="m-7">
+          <form action="https://api.web3forms.com/submit" method="POST" id="form">
+            <input type="hidden" name="access_key" value="168d2641-cb65-410e-add2-9b251dd99f69" />
+            <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+            <input type="hidden" name="redirect" value="https://web3forms.com/success" />
+            <input type="checkbox" name="botcheck" id="" style="display: none;" />
+            <div class="mb-6">
+              <label for="name" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Full Name</label>
+              <input type="text" name="name" id="name" placeholder="John Doe" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+            </div>
+            <div class="mb-6">
+              <label for="email" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Email Address</label>
+              <input type="email" name="email" id="email" placeholder="you@company.com" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+            </div>
+            <div class="mb-6">
+              <label for="phone" class="text-sm text-gray-600 dark:text-gray-400">Phone Number</label>
+              <input type="text" name="phone" id="phone" placeholder="+91 12345-67890" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+            </div>
+            <div class="mb-6">
+              <label for="message" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Your Message</label>
+  
+              <textarea rows="5" name="message" id="message" placeholder="Your Message" class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" required></textarea>
+            </div>
+            <div class="mb-6">
+              <button type="submit" class="w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none">
+                Send Message
+              </button>
+            </div>
+            <p class="text-base text-center text-gray-400" id="result"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<br>
+<hr style="height:4px">
+<div class = "bg-gray-300">
+  <br>
+  <center><h1 style = "font-size: 50px">Thank you visit again<h1></center>
+  <br>
+<br>
+</div>
+</html>
