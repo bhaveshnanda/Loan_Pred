@@ -1,6 +1,7 @@
 # save this as app.py
 from flask import Flask, request, render_template
 import pickle
+import signal
 
 app = Flask(__name__)
 model = pickle.load(open('ML_Model1', 'rb'))
