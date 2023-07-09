@@ -45,5 +45,5 @@ def predict():
 
 
 predict
-if __name__ == "__main__":
+if __name__ == "0.0.0.0":
     app.run(debug=True)
