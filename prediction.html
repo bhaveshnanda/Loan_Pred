@@ -24,25 +24,26 @@
     <a class="btn btn-primary" href="./" role="button">Back</a>
 <form action='./prediction.html' method='POST'>
 <div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label"> gender</label>
-  <select class="form-select" id="Gender" name="Gender" aria-label="Default select example">
-  <option selected>-- select gender --</option>
+  <label for="exampleFormControlInput1" class="form-label"> Select Gender</label>
+  <select class="form-select" id="Gender" name="Gender" aria-label="Default select example" required>
+  <option selected></option>
   <option value=1>Male</option>
   <option value=0>Female</option>
+  <option value=1>Transgender</option>>
 </select>
 </div>
 <div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label"> married status</label>
-  <select class="form-select" id="Married" name="Married" aria-label="Default select example">
-  <option selected>-- select married status --</option>
+  <label for="exampleFormControlInput1" class="form-label"> Select Married status</label>
+  <select class="form-select" id="Married" name="Married" aria-label="Default select example" required>
+  <option selected></option>
   <option value=1>Yes</option>
   <option value=0>No</option>
 </select>
 </div>
 <div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Dependents</label>
-  <select class="form-select" id="Dependents" name="Dependents" aria-label="Default select example">
-  <option selected>-- select dependents --</option>
+  <label for="exampleFormControlInput1" class="form-label">Select Dependents</label>
+  <select class="form-select" id="Dependents" name="Dependents" aria-label="Default select example" required>
+  <option selected></option>
   <option value=0>0</option>
   <option value=1>1</option>
   <option value=2>2</option>
@@ -50,53 +51,53 @@
 </select>
 </div>
 <div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Education</label>
-  <select class="form-select" id="Education" name="Education" aria-label="Default select example">
-  <option selected>-- select education --</option>
+  <label for="exampleFormControlInput1" class="form-label">Select Education</label>
+  <select class="form-select" id="Education" name="Education" aria-label="Default select example" required>
+  <option selected></option>
   <option value=1>Graduate</option>
   <option value=2>Not Graduate</option>
 </select>
 </div>
 <div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Self_Employed</label>
-  <select class="form-select" id="Self_Employed" name="Self_Employed" aria-label="Default select example">
-  <option selected>-- select Self_Employed --</option>
-  <option value=1>Yes</option>
-  <option value=0>No</option>
+  <label for="exampleFormControlInput1" class="form-label">Select Work Profile</label>
+  <select class="form-select" id="Self_Employed" name="Self_Employed" aria-label="Default select example" required>
+  <option selected></option>
+  <option value=1>Self_Employed</option>
+  <option value=0>Salaried</option>
 </select>
 </div>
 <div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Credit_History</label>
-  <select class="form-select" id="Credit_History" name="Credit_History" aria-label="Default select example">
-  <option selected>-- select Credit_History --</option>
+  <label for="exampleFormControlInput1" class="form-label">Select Credit Score</label>
+  <select class="form-select" id="Credit_History" name="Credit_History" aria-label="Default select example" required>
+  <option selected></option>
   <option value=0>Between 300 to 500</option>
   <option value=1>Above 500</option>
 </select>
 </div>
 <div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Property_Area</label>
-  <select class="form-select" id="Property_Area" name="Property_Area" aria-label="Default select example">
-  <option selected>-- select Property_Area --</option>
+  <label for="exampleFormControlInput1" class="form-label">Select Property Area</label>
+  <select class="form-select" id="Property_Area" name="Property_Area" aria-label="Default select example" required>
+  <option selected></option>
   <option value=1>Semiurban</option>
   <option value=2>Urban</option>
   <option value=0>Rural</option>
 </select>
 </div>
 <div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Enter ApplicantIncome</label>
-  <input type="number" class="form-control" id="ApplicantIncome" name="ApplicantIncome" placeholder="ApplicantIncome">
+  <label for="exampleFormControlInput1" class="form-label">Enter Applicant Income</label>
+  <input type="number" class="form-control" id="ApplicantIncome" name="ApplicantIncome" placeholder="Applicant Income" required>
 </div>
 <div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Enter CoapplicantIncome</label>
-  <input type="number" class="form-control" id="CoapplicantIncome" name="CoapplicantIncome" placeholder="CoapplicantIncome">
+  <label for="exampleFormControlInput1" class="form-label">Enter Coapplicant Income</label>
+  <input type="number" class="form-control" id="CoapplicantIncome" name="CoapplicantIncome" placeholder="Coapplicant Income" required>
 </div>
 <div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Enter LoanAmount</label>
-  <input type="number" class="form-control" id="LoanAmount" name="LoanAmount" placeholder="LoanAmount">
+  <label for="exampleFormControlInput1" class="form-label">Enter Loan Amount</label>
+  <input type="number" class="form-control" id="LoanAmount" name="LoanAmount" placeholder="Loan Amount" required>
 </div>
 <div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Enter Loan_Amount_Term</label>
-  <input type="number" class="form-control" id="Loan_Amount_Term" name="Loan_Amount_Term" placeholder="Loan_Amount_Term">
+  <label for="exampleFormControlInput1" class="form-label">Enter Loan Amount Term</label>
+  <input type="number" class="form-control" id="Loan_Amount_Term" name="Loan_Amount_Term" placeholder="Loan Amount Term" required>
 </div>
 
 
@@ -110,7 +111,7 @@
     <br>
       <br>
       <div id ="result">
-        <big><big><big><center><strong style="color:{{prediction_color}}">{{prediction_text}}</strong></center></big></big></big>
+      <big><big><big><center><strong style="color:{{prediction_color}}">{{prediction_text}}</strong></center></big></big></big>
       <br>
       </div>
     </div>
